@@ -24,5 +24,5 @@ void nvic_close(int irq)
 void nvic_init(void)
 {
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);
-	NVIC_SetVectorTable(NVIC_VectTab_FLASH,0);
+	//NVIC_SetVectorTable(NVIC_VectTab_FLASH,0);
 }

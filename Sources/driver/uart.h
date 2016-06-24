@@ -10,6 +10,6 @@ void uart_open(int id, int baudrate, int parity);
 void uart_close(int id);
 void uart_write(int id, void* buf, int len);
 int  uart_read(int id, void* buf, int len);
-void uart_purge(int id);
+void uart_clear(int id);
 
 #endif
